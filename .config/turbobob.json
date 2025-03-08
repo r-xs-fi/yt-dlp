@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "yt-dlp",
+	"meta": {
+		"description": "Container image for yt-dlp - A feature-rich command-line audio/video downloader",
+		"website": "https://github.com/yt-dlp/yt-dlp"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/yt-dlp", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
+	]
+}
